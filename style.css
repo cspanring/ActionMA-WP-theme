@@ -49,8 +49,11 @@ a:link {
 	padding-bottom: 0;
 }
 
-#site-generator {
-	margin-top: -38px;
+#site-info {
+	font-weight: normal;
+	font-family: Georgia, "Bitstream Charter", serif;
+	font-style: italic;
+	font-size: 12px;
 }
 
 div#primary.widget-area ul li h3.widget-title {

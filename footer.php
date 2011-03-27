@@ -23,7 +23,7 @@
 ?>
 
 			<div id="site-info">
-
+				&copy; Action for Regional Equity. All Rights Reserved.
 			</div><!-- #site-info -->
 
 			<div id="site-generator">
