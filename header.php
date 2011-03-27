@@ -24,9 +24,9 @@
 	bloginfo( 'name' );
 
 	// Add the blog description for the home/front page.
-	$site_description = get_bloginfo( 'description', 'display' );
-	if ( $site_description && ( is_home() || is_front_page() ) )
-		echo " | $site_description";
+	// $site_description = get_bloginfo( 'description', 'display' );
+	//if ( $site_description && ( is_home() || is_front_page() ) )
+	//	echo " | $site_description";
 
 	// Add a page number if necessary:
 	if ( $paged >= 2 || $page >= 2 )
@@ -58,9 +58,9 @@
 		<div id="masthead">
 			<div id="branding" role="banner">
 				
-				<div id="site-logo"><a href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/img/logo.jpg" width="" height=""/></a></div>
+				<div id="site-logo"><a href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/img/logo.png" width="220" height="100"/></a></div>
 				
-				<div id="site-description"><?php bloginfo( 'name' ); ?></div>
+				<div id="site-description"><?php bloginfo( 'description' ); ?></div>
 
 				<?php
 					// Check if this is a post or page, if it has a thumbnail, and if it's a big one
