@@ -44,5 +44,10 @@ a:link {
 
 #colophon {
 	border-top: 2px solid #ECBB3B;
+	padding-bottom: 0;
+}
+
+#site-generator {
+	margin-top: -38px;
 }
 
